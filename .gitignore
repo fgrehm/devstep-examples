@@ -1,3 +1,4 @@
+*.pyc
 .bundle
 vendor
 composer.phar
