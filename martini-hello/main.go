@@ -8,7 +8,7 @@ import (
 func main() {
 	m := martini.Classic()
 	m.Get("/", func() string {
-		return "Hello from Martini!"
+		return "Hello from Martini!\n"
 	})
 	http.ListenAndServe(":8080", m)
 }
