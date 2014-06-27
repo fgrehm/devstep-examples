@@ -1,4 +1,4 @@
-FROM fgrehm/devstep:standalone
+FROM fgrehm/devstep-sa:v0.0.1
 
 # Rebuild project based on this Dockerfile
 ONBUILD ADD . /workspace
