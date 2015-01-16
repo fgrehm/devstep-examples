@@ -9,7 +9,7 @@ http://fgrehm.viewdocs.io/devstep.
 # From your machine
 git clone https://github.com/fgrehm/devstep-examples.git
 cd devstep-examples/hello-slim
-devstep hack -r '-p 8080:8080'
+devstep hack -p 8080:8080
 
 # From within the container
 PORT="8080" vendor/bin/heroku-php-apache2

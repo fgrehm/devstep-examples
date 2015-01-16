@@ -9,7 +9,7 @@ https://github.com/fgrehm/devstep.
 # From your machine
 git clone https://github.com/fgrehm/devstep-examples.git
 cd devstep-examples/hello-express
-devstep hack -r '-p 8080:8080'
+devstep hack -p 8080:8080
 
 # From within the container
 node app.js
